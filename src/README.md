@@ -31,6 +31,7 @@ Uma aplicação FastAPI super simples que permite que estudantes visualizem e se
 | ------ | ----------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | GET    | `/activities`                                                     | Obtém todas as atividades com seus detalhes e contagem atual de participantes |
 | POST   | `/activities/{activity_name}/signup?email=student@mergington.edu` | Inscreve-se em uma atividade                                                |
+| DELETE | `/activities/{activity_name}/participants/{email}`               | Remove um estudante de uma atividade                                        |
 
 ## Modelo de Dados
 
